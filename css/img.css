@@ -158,15 +158,6 @@
 
 @media (width <= 600px){
 
-    .cardbody{
-        
-        width: 104%;
-        height: 1203px;
-        left: -8px;
-        top: 69px;
-
-    }
-
     .card{
 
         padding: 0px;
@@ -176,13 +167,6 @@
         justify-content: center;
         overflow: hidden;
         border-radius: 0%;
-    }
-
-    .img{
-
-        width: auto;
-        height: 1200px;
-
     }
 
     #contenedor{
