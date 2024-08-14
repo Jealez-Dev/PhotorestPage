@@ -1,0 +1,127 @@
+.Navbar-dark{
+
+    background: rgb(24, 24, 24);
+
+}
+
+.Navbar-dark nav ul a{
+
+    color: rgb(255, 255, 255);
+
+}
+
+.Navbar-dark .here{
+
+    color: rgb(0, 0, 0) !important;
+    background: rgb(255, 255, 255);
+    
+}
+
+.Navbar-dark .here .svgcolor{
+
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(308deg) brightness(99%) contrast(101%);
+
+}
+
+.Navbar-dark nav ul img{
+
+    filter: invert(93%) sepia(56%) saturate(0%) hue-rotate(270deg) brightness(108%) contrast(100%);
+
+}
+
+.Navbar-dark .logo a{
+
+    text-decoration: none;
+    color:  rgb(255, 255, 255);
+
+}
+
+.Navbar-dark .logo img{
+
+    filter: invert(93%) sepia(56%) saturate(0%) hue-rotate(270deg) brightness(108%) contrast(100%);
+
+}
+
+.Navbar-dark .settings img{
+
+    filter: invert(93%) sepia(56%) saturate(0%) hue-rotate(270deg) brightness(108%) contrast(100%);
+
+}
+
+.Navbar-dark .btn-dark img:active{
+
+    transform: scale(0.9);
+
+}
+
+
+.Navbar-dark .btn-settings:active{
+
+    transform: scale(0.9);
+
+}
+
+.Navbar-dark .popup-settings{
+
+    display: none;
+    position: absolute;
+    top: 71px;
+    right: 20px;
+    width: 362px;
+    height: 669px;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background: rgb(24, 24, 24);
+    
+
+}
+
+.Navbar-dark .miniperfil .user{
+
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+
+}
+
+.Navbar-dark .miniperfil .account-type{
+
+    color: rgb(189, 189, 189);
+
+}
+
+.Navbar-dark .miniperfil .account-email{
+
+    color: rgb(189, 189, 189);
+
+
+}
+
+.Navbar-dark .opciones .desing-input{
+
+    background: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+
+}
+
+.Navbar-dark .opciones .desing-input:hover{
+
+    background: rgb(212, 212, 212);
+    color: black;
+
+}
+
+.Navbar-dark .opciones #option{
+
+    background: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+
+}
+
+.Navbar-dark .opciones #option:hover{
+
+    background: rgb(212, 212, 212);
+    color: black;
+
+}
+

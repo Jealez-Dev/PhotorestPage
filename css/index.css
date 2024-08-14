@@ -1,0 +1,209 @@
+.body{
+    background-color: rgb(255, 255, 255);
+}
+
+.body-dark{
+
+    background-color: rgb(24, 24, 24);
+
+}
+
+.cuerpo{
+
+    position: relative;
+    top: 100px;
+
+}
+
+.cuerpo .fila1{
+
+    display: flex;
+    align-items: center;
+    position: sticky;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.cuerpo .fila1 .imagen{
+
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 246px;
+    height: 472px;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    transition: all 0.5s ease;
+
+}
+
+.cuerpo .fila1 .imagen:hover{
+
+    transform: scale(1.1);
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.cuerpo .fila1 img{
+
+    width: auto;
+    height: 100%;
+
+}
+
+.imgOver{
+
+   margin-left: 0px;
+
+}
+
+.imagenAleatoria{
+
+    border-radius: 50%;
+    transition: all 0.5s ease;
+
+}
+
+.imagenAleatoria:hover{
+
+    filter: brightness(60%);
+    transform: scale(1.1);
+
+}
+
+
+@media (width <= 1040px) and (width >= 640px){
+
+    .cuerpo .fila1{
+
+        justify-content: center;
+
+    }
+
+    .cuerpo .fila1 .imagen{
+        
+        width: 303px;
+        height: 472px;
+    
+    }
+
+}
+
+@media (width <= 1290px){
+
+
+    .cuerpo .fila1{
+
+        justify-content: center;
+
+    }
+
+}
+
+@media (width <= 1040px) and (width >= 640px){
+
+    .cuerpo .fila1{
+
+        justify-content: center;
+
+    }
+
+    .cuerpo .fila1 .imagen{
+        
+        width: 303px;
+        height: 369px;
+    
+    }
+
+}
+
+@media (width <= 640px){
+
+    .cuerpo .fila1 .imagen{
+        
+        width: 244px;
+        height: 369px;
+    
+    }
+
+}
+
+
+@media (width <= 600px){
+
+    .cuerpo .fila1{
+
+        justify-content: center;
+
+    }
+
+    .cuerpo .fila1 .imagen{
+        
+        width: 244px;
+        height: 369px;
+    
+    }
+
+    .cuerpo .fila1 .imagen:hover{
+
+        transform: scale(1.0);
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+    }
+
+    .imagenAleatoria:hover{
+
+        filter: none;
+        transform: none;
+    
+    }
+
+}
+
+@media (width <= 530px){
+
+    .cuerpo .fila1 .imagen{
+
+        width: 233px;
+        height: 369px;
+    
+    }
+
+}
+
+@media (width <= 500px){
+
+    .cuerpo .fila1 .imagen{
+
+        width: 188px;
+        height: 369px;
+    
+    }
+
+}
+
+
+@media (width <= 400px){
+
+    .cuerpo .fila1 .imagen{
+
+        width: 300px;
+        height: 369px;
+    
+    }
+
+    .imagenAleatoria{
+
+        border-radius: 0%
+
+    }
+
+
+}
+
+
