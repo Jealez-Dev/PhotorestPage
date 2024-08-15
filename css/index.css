@@ -206,4 +206,14 @@
 
 }
 
+@media (prefers-color-scheme: dark){
+    
+    .body{
+
+        background: rgba(24,24,24);
+        
+    }
+    
+}
+
 
